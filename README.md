@@ -36,6 +36,7 @@ var itemtemplate = {
               "left": 148,//相对父级坐标
               "top": 63,//相对坐标
               "rotate": 0,//旋转角度
+              "rotateable": false,//是否开启旋转
               "width": 31,//宽
               "height": 38,//高
               "active": false,//是否激活
@@ -61,8 +62,7 @@ var itemtemplate = {
 |  ----  | ----  | ---- | ---- |
 | scale  | px转自定义单位比例| 1||
 | frameSelectType  | 框选规则 |'fit' |'touch' 'fit'|
-| hotKey  | 是否开启快捷键 |false | Boolean|
-| stackLength  | 压栈长度(建议在20栈内) |10 | Number|
+| stackLength  | 压栈长度(建议在20栈内) |30 | Number|
 
 
 #### $refs.sketch提供以下api
